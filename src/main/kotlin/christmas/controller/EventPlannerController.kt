@@ -10,7 +10,7 @@ class EventPlannerController(private val inputView: InputView, private val outpu
 
         val selectedDate = inputView.readDate()
         outputView.printMenu()
-
+        outputView.printOrderMenu()
 
     }
 }
