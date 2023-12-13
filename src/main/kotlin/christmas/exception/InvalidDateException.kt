@@ -1,6 +1,6 @@
 package christmas.exception
 
-object InputException {
+object InvalidDateException {
     fun validateDateInput(input: String?): Int? {
         when {
             input == null || input.toIntOrNull() == null || input.toInt() !in 1..31 -> {
