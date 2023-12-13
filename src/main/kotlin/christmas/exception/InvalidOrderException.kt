@@ -1,4 +1,4 @@
 package christmas.exception
 
-class InvalidOrderException {
+object InvalidOrderException {
 }
